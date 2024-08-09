@@ -17,10 +17,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r requirement.txt
 
     - name: Give execute permission to bgmi
       run: chmod +x bgmi
 
-    - name: Run executable_ddos.py
-      run: python executable_ddos.py
+    - name: Run m.py
+      run: python m.py
